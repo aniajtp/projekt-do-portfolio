@@ -1,0 +1,29 @@
+{
+  "name": "projekt-do-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "globstar": "^1.0.0",
+    "nu-html-checker": "^0.1.0",
+    "onchange": "^4.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniajtp/projekt-do-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniajtp/projekt-do-portfolio/issues"
+  },
+  "homepage": "https://github.com/aniajtp/projekt-do-portfolio#readme"
+}
