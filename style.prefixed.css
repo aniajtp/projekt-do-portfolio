@@ -123,13 +123,13 @@ button:hover {
   cursor: pointer;
   transition: 3s;
 }
-.services,, .aboutus, .logos{
+.services,.portfolio, .about_us {
   width: 100%;
   height: 800px;
-  padding-top: 10px;
+  padding-top: 0;
 }
 .title_services {
-  margin-top: 0;
+  margin-top: 20px;
   padding-top: 10px;
 }
 .title_services h1 {
@@ -141,23 +141,20 @@ button:hover {
   letter-spacing: -1px;
   text-align: center;
   font-style: normal;
-  margin: 30px auto 0;
-  padding: 5px;
 }
-.services p, .title_services p {
+.services p {
   color: #777777;
   font-family: "Droid Serif";
   font-size: 26px;
   font-style: italic;
   text-transform: none;
-  margin-top: 0;
-  text-align: center;
-  margin-top: 5px;
-  padding: 5px;
+  margin-top: 20px;
 }
 .icon{
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   padding: 20px;
   margin: 10px;
 }
@@ -165,9 +162,12 @@ button:hover {
   width: 90px;
   height: 89px;
   color: #fed136;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   border: 3px solid #fed136;
   background-color: #ffffff;
   border-radius: 50px;
@@ -194,31 +194,36 @@ button:hover {
   word-spacing: -3.75px;
   text-indent: 10px;
 }
-.portfolio, .amazing_team {
+.portfolio {
   height: 1221px;
   width: 100%;
   background-color: #f7f7f7;
 }
-.background  {
+.background {
   display: inlaine-box;
-  background-color:#f7f7f7;;
+  background-color: #fff;
   width: 293px;
   margin: 30px auto;
-  
 }
 .item{
   width: 294px;
   height: 303px;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   margin: 0 auto;
   border: none;
 }
 .item img {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   border: none;
 }
 .branding{
@@ -237,44 +242,4 @@ button:hover {
 .our_humble_beginnings{
   width: 293px;
   margin: 0 auto;
-}
-.team {
-  display: inlaine-box;
-  justify-content: center;
-  align-items: center;
-  margin:0;
-}
-.team_item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  margin: 0 auto;
-  width: 223px;
-  height: 223px;
-  border: 7px solid #ffffff;
-  background-color: #111111;
-}
-.social_media{
-width: 44px;
-height: 43px;
-border: 3px solid #222222;
-background-color: #f9f9f9;
-border-radius: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto 10px;
-}
-.about {
-border: 2px solid green;
-
-}
-
-.amazing_team {
-  width: 100%;
-  height: 650px;
-  background-color: #f7f7f7;
-  margin: 50px auto;
-  border: 2px solid blue;
 }
