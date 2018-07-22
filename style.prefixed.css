@@ -101,7 +101,6 @@ article {
   font-size: 75px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: -1.88px;
   text-align: center;
   margin: 0 auto;
 }
@@ -118,18 +117,20 @@ button {
 }
 button:hover {
   background-color:  #fed136;
+  border-radius: 10px;
 }
 .hero button, a {
   cursor: pointer;
   transition: 3s;
 }
-.services,.portfolio, .about_us {
+.services,.logos{
   width: 100%;
-  height: 800px;
-  padding-top: 0;
+  padding-top: 10px;
+  padding: 5px;
+  text-align: center;
 }
 .title_services {
-  margin-top: 20px;
+  margin-top: 0;
   padding-top: 10px;
 }
 .title_services h1 {
@@ -141,14 +142,21 @@ button:hover {
   letter-spacing: -1px;
   text-align: center;
   font-style: normal;
+  margin: 30px auto 0;
+  padding: 5px;
+    border: 2px solir green;
+
 }
-.services p {
+.services p, .title_services p {
   color: #777777;
   font-family: "Droid Serif";
   font-size: 26px;
   font-style: italic;
   text-transform: none;
-  margin-top: 20px;
+  margin-top: 0;
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
 }
 .icon{
   display: -ms-flexbox;
@@ -192,20 +200,19 @@ button:hover {
   padding: 10px;
   text-align: justify;
   word-spacing: -3.75px;
-  text-indent: 10px;
 }
-.portfolio {
+.portfolio,.amazing_team {
   height: 1221px;
   width: 100%;
   background-color: #f7f7f7;
 }
 .background {
   display: inlaine-box;
-  background-color: #fff;
+  background-color:#f7f7f7;;
   width: 293px;
   margin: 30px auto;
 }
-.item{
+.item {
   width: 294px;
   height: 303px;
   display: -ms-flexbox;
@@ -226,7 +233,7 @@ button:hover {
       align-items: center;
   border: none;
 }
-.branding{
+.branding {
   width: 293px;
   margin: 0 auto;
 }
@@ -239,7 +246,116 @@ button:hover {
   word-spacing: 1px;
   text-align: center;
 }
-.our_humble_beginnings{
-  width: 293px;
+.team {
+  display: inlaine-box;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin:0;
+}
+.team_item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-radius: 50%;
   margin: 0 auto;
+  width: 223px;
+  height: 223px;
+  border: 7px solid #ffffff;
+  background-color: #111111;
+}
+.social_media{
+  width: 44px;
+  height: 43px;
+  border: 3px solid #222222;
+  background-color: #f9f9f9;
+  border-radius: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 0 auto 10px;
+}
+.icon-aboutus {
+  width: 100%;
+}
+.icon-aboutus_yellow {
+  width: 100%;
+}
+.icon-aboutus .text, .icon-aboutus_2 .text{
+  margin-top: 25px;
+}
+.icon-aboutus h4, .icon-aboutus p {
+  text-align: right;
+  margin-right: 0;
+}
+.icon-aboutus_2 h4, .icon-aboutus_2 p {
+  text-align: left;
+  margin-left: 0;
+}
+.icon-aboutus_2 img {
+  border:5px solid  #f7f7f7;
+  border-radius: 100px;
+  width: 170px;
+  height: 170px;
+  margin:20 auto;
+}
+.icon-aboutus img {
+  border:5px solid  #f7f7f7;
+  border-radius: 100px;
+  width: 170px;
+  height: 170px;
+  margin:20 auto;
+}
+.amazing_team {
+  width: 100%;
+  height: 700px;
+  background-color: #f7f7f7;
+  margin: 0px auto;
+}
+.logos {
+ 
+}
+.contact {
+  background: #0c0c0c;
+}
+.contact h1 {
+  color:#dfdddd;
+}
+.field {
+  padding: 30px;
+  margin: 0 30px;
+  margin-right: auto;
+  display: inline-block;
+}
+.field_submit {
+  margin: auto;
+}
+.col-1,.col-4 {
+  margin-top: 20px;
+  padding-top: 30px;
+  height: 100px;
+}
+.media{
+  text-align: right;
+  font-size: 20px;
+  -ms-flex-pack: flex end;
+      justify-content: flex end;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.media i{
+  font-size: 35px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack:center;
+      justify-content:center;
+  -ms-flex-align: center;
+      align-items: center;
 }
