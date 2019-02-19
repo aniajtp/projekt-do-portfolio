@@ -1,6 +1,4 @@
 
-
-
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -14,7 +12,6 @@ body{
 }
 .container {
   max-width: 100%;
-  background-color: #000000;
 }
 .row:after {
   content: "";
@@ -39,8 +36,9 @@ body{
 .col-12 {width: 100%;}
 
 .hero {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  width: 1400px;
   height: 800px;
   text-align: center;
   background-size: cover;
@@ -128,8 +126,8 @@ button:hover {
   transition: 0.15s;
 }
 .services {
-  width: 934px;
-  margin: 0 223.54px;
+  width: 1400px;
+  margin: 0 auto;
 }
 .title_services h1 {
   color: #222222;
@@ -198,7 +196,7 @@ button:hover {
   width: 1400px;
   height: 1200px;
   background-color: #f7f7f7;
-  margin: 0;
+  margin: 0 auto;
 }
 .background {
   display: inlaine-box;
@@ -335,6 +333,7 @@ button:hover {
 }
 .contact {
   width: 1400px;
+  margin: 0 auto;
   height: 35em;
   background-image: url(images/img/mapa.png);
 }
@@ -365,6 +364,7 @@ button:hover {
 }
 footer {
   width: 1400px;
+  margin: 0 auto;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -643,3 +643,12 @@ footer {
   padding: 5px;
   font-size: 15px;
 }
+
+
+@media (max-width: 768px) {
+  .hero {
+    margin: 0 auto;
+    width: 200rem;
+    height: 100rem;
+  }
+};
